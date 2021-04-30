@@ -12,7 +12,9 @@ module.exports = {
     'plugin:prettier/recommended',
     'plugin:nuxt/recommended',
   ],
-  plugins: [],
+  plugins: [vue],
   // add your custom rules here
-  rules: {},
+  rules: {
+    'vue/this-in-template': 'off',
+  },
 }
